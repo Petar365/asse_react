@@ -1,4 +1,3 @@
-import { useState } from 'react';
 
 function DiagonalDiv() {
 
@@ -12,7 +11,7 @@ function DiagonalDiv() {
                             <a href="/instructions" target="_self"
                                className="vc_single_image-wrapper   vc_box_border_grey">
                                 <img width="72" height="72"
-                                     src="https://www.24x7.rs/wp-content/uploads/2016/02/asseco-24x7-upustva.png"
+                                     src="/images/asseco-24x7-upustva.png"
                                      className="vc_single_image-img attachment-full"
                                      alt=""/>
                             </a>
@@ -29,7 +28,7 @@ function DiagonalDiv() {
                             <a href="/drivers" target="_self"
                                className="vc_single_image-wrapper   vc_box_border_grey">
                                 <img width="72" height="72"
-                                     src="https://www.24x7.rs/wp-content/uploads/2016/02/asseco-24x7-drajveri.png"
+                                     src="/images/asseco-24x7-drajveri.png"
                                      className="vc_single_image-img attachment-full"
                                      alt=""/>
                             </a>

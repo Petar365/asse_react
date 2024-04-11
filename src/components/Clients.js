@@ -33,7 +33,7 @@ function Clients() {
                             </div>
                         </div>
                     </div>
-
+                    <hr style={{borderTopColor: "rgba(0, 0, 0, 0.3)"}}/>
                     <div className="row gx-5 pt-5">
                         <div className="col">
                             <div className="p-3 clients-img">
@@ -52,6 +52,8 @@ function Clients() {
                             </div>
                         </div>
                     </div>
+
+                    <hr style={{borderTopColor: "rgba(0, 0, 0, 0.3)"}}/>
 
                     <div className="row gx-5 pt-5">
 

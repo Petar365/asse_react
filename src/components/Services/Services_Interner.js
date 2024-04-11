@@ -1,4 +1,3 @@
-
 function Services_Internet() {
     return (
         <div className="wrapper">
@@ -26,7 +25,7 @@ function Services_Internet() {
                             коминтентот. Со помош на своите клучеви ќе изврши декриптирање на криптираните EMAIL пораки
                             и ќе обезбеди заштита на информациите содржани во пораките. </p>
                     </div>
-                    <hr/>
+                    <hr style={{borderTopColor:"rgba(0, 0, 0, 0.3)"}}/>
                     <div>
                         <h2 className="text-center p-3">Aseba fxWeb 3.0</h2>
                     </div>
@@ -125,7 +124,7 @@ function Services_Internet() {
                         <div style={{textAlign: "left"}}>
                             <img src="/images/Services/NlbLoginPage.png"
                                  style={{maxWidth: "75%", maxHeight: "100%", float: "left"}}
-                                 className="pr-3"/>
+                                 className="pr-3" alt={"NlbLoginPage.png"}/>
                             <a>Исечок од корисничките интерфејси. Изгледот на страната е прилагодлив и
                                 се адаптира
                                 на заштитините бои и логоа на клиентот (Банката). Најавата е возможна со
@@ -155,12 +154,12 @@ function Services_Internet() {
                                 инсталирано потребните компоненти ви се отвара прозорец со можност
                                 истите да ги превземете</p>
                             <img src="/images/Services/nlbproklikSertifikat.png"
-                                 style={{maxWidth: "100%"}}/>
+                                 style={{maxWidth: "100%"}} alt={"nlbproklikSertifikat.png"}/>
                         </div>
                         <div>
                             <p className="font-weight-bold">Страничен панел</p>
                             <img src="/images/Services/nlbStranicePanel.png" style={{float: "left"}}
-                                 className="pr-3"/>
+                                 className="pr-3" alt={"nlbStranicePanel.png"}/>
                         </div>
 
                         <div style={{clear: "both"}}></div>
@@ -169,7 +168,7 @@ function Services_Internet() {
                             <p className="font-weight-bold">Контролен панел</p>
                             <img src="/images/Services/nlbKontrolenPanel.png"
                                  style={{maxWidth: "75%", float: "left"}}
-                                 className="pr-3"/>
+                                 className="pr-3" alt={"nlbKontrolenPanel.png"}/>
                             <p>Контролниот панел е првата страница на апликацијата што се отвора по
                                 успешната
                                 најава.
@@ -193,7 +192,7 @@ function Services_Internet() {
                                 пак директно да се испечатат.</p>
                             <img className="pb-3" src="/images/Services/nlbSmetki.png"
                                  style={{maxWidth: "100%"}}
-                            />
+                             alt={"nlbSmetki.png"}/>
                         </div>
 
                         <div>

@@ -4,8 +4,6 @@ import Carousel from "./components/ControlledCarousel";
 import DiagonalDiv from "./components/DiagonalDiv";
 import Clients from "./components/Clients";
 import Contact from "./components/Contact";
-import Products from "./components/Products";
-import './components/Navbar.css'
 import './css/style.css'
 import './css/owl.carousel.min.css'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -57,6 +55,7 @@ const router = createBrowserRouter([
         path: "/products_m-banking",
         element: <>
             <Navbar/>
+            {/* eslint-disable-next-line react/jsx-pascal-case */}
             <M_Banking/>
             <Footer/>
         </>,
@@ -140,6 +139,7 @@ const router = createBrowserRouter([
         path: "/m-banking",
         element: <>
             <Navbar/>
+            {/* eslint-disable-next-line react/jsx-pascal-case */}
             <M_Banking/>
             <Footer/>
         </>,

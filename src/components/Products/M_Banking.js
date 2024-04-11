@@ -9,7 +9,7 @@ function M_Banking() {
             <hr className="invisibleHrBottom"/>
         </div>
         <div className="wrapper-content-inner pt-4">
-            <h2 className="text-center p-3">Asseba m-Banking</h2>
+            <h2 className="text-center p-3s">Asseba m-Banking</h2>
             <div>
                 <p>
                     Операторот за потребите на крајните клиенти на Корисникот ќе овозможи достапност на банкарските

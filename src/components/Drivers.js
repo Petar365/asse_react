@@ -7,10 +7,10 @@ function Drivers() {
         <div className='wrapper '>
             <div className="headers">
                 <hr className="invisibleHr"/>
-                    <div className="wrapper-content-inner pt-2 pb-2">
-                        <h2><span style={{fontFamily:"Raleway"}}>Драјвери</span></h2>
-                    </div>
-                    <hr className="invisibleHrBottom"/>
+                <div className="wrapper-content-inner pt-2 pb-2">
+                    <h2><span style={{fontFamily: "Raleway"}}>Драјвери</span></h2>
+                </div>
+                <hr className="invisibleHrBottom"/>
             </div>
 
             <div className="wrapper pt-3 pb-5">
@@ -18,12 +18,13 @@ function Drivers() {
 
                 <div className="wrapper-content-inner">
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Дигитален сертификат
+                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Дигитален
+                        сертификат
                         запишан на
                         Gemalto IDPrime PKI токен
                     </div>
                     <div className="table-fixed">
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
                                 <th scope="col">Safe Net Authentication Client (SAC)</th>
@@ -34,7 +35,7 @@ function Drivers() {
 
                             <tbody className="bluefont">
                             <tr>
-                                <th style={{width:"68%"}} scope="row">32-bit</th>
+                                <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td><a href="/Downloads/SafeNetAuthentication/KorisnickoUpatstvo_Instalacija_na_SAC.pdf"
                                        download="KorisnickoUpatstvo_Instalacija_na_SAC.pdf">Упатсво</a>
                                 </td>
@@ -58,12 +59,13 @@ function Drivers() {
                         </table>
                     </div>
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Дигитален сертификат
+                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Дигитален
+                        сертификат
                         запишан на
                         Gemalto Java токен
                     </div>
                     <div className="table-fixed">
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
                                 <th scope="col">Classic Client v6.3</th>
@@ -74,7 +76,7 @@ function Drivers() {
 
                             <tbody className="bluefont">
                             <tr>
-                                <th style={{width:"68%"}} scope="row">32-bit</th>
+                                <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td><a href="/Downloads/Classic%20Client/JavaToken_Instalation_Guide_1.1.pdf"
                                        download="JavaToken_Instalation_Guide_1.1.pdf">Упатсво</a>
                                 </td>
@@ -99,12 +101,13 @@ function Drivers() {
                     </div>
 
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Драјвери за SafeNet 5110
+                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Драјвери за SafeNet
+                        5110
                         CC PKI
                         Токен
                     </div>
                     <div className="table-fixed">
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
                                 <th scope="col">KIBSTrust SafeNet Authentication Client v.10.8-R6</th>
@@ -115,7 +118,7 @@ function Drivers() {
 
                             <tbody className="bluefont">
                             <tr>
-                                <th style={{width:"68%"}} scope="row">32-bit</th>
+                                <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td>10.8-R6</td>
                                 <td>
                                     <a className="msi-download-center msi-button btn btn-outline-success"
@@ -135,7 +138,7 @@ function Drivers() {
                         </table>
 
 
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
                                 <th scope="col">KIBSTrust SafeNet Authentication Client v. 10.8-R2</th>
@@ -146,7 +149,7 @@ function Drivers() {
 
                             <tbody className="bluefont">
                             <tr>
-                                <th style={{width:"68%"}} scope="row">32-bit</th>
+                                <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td>10.8-R2</td>
                                 <td>
                                     <a className="msi-download-center msi-button btn btn-outline-success"
@@ -167,17 +170,18 @@ function Drivers() {
 
                     </div>
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Минидрајвери за Gemalto ID
+                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Минидрајвери за
+                        Gemalto ID
                         Prime
                         (.NET/MD) PKI Токен
                     </div>
 
                     <div className="table-fixed">
 
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
-                                <th style={{width:"83%"}} scope="col">Windows 10 и Windows Server 2016</th>
+                                <th style={{width: "83%"}} scope="col">Windows 10 и Windows Server 2016</th>
                                 <th scope="col">Превземи</th>
                             </tr>
                             </thead>
@@ -203,7 +207,7 @@ function Drivers() {
 
                             <thead className="thead-light">
                             <tr>
-                                <th style={{width:"83%"}} scope="col">Windows 8 и Windows Server 2012 (не поддржан
+                                <th style={{width: "83%"}} scope="col">Windows 8 и Windows Server 2012 (не поддржан
                                     софтвер)
                                 </th>
                                 <th scope="col">Превземи</th>
@@ -228,15 +232,16 @@ function Drivers() {
                             </tbody>
                         </table>
 
-                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Библиотека за Gemalto
+                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Библиотека за
+                            Gemalto
                             ID Prime
                             (.NET/MD) PKI Токен
                         </div>
 
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
-                                <th style={{width:"83%"}} scope="col">#PKCS Gemalto ID Prime (не поддржан софтвер)</th>
+                                <th style={{width: "83%"}} scope="col">#PKCS Gemalto ID Prime (не поддржан софтвер)</th>
                                 <th scope="col">Превземи</th>
                             </tr>
                             </thead>
@@ -259,15 +264,18 @@ function Drivers() {
                             </tbody>
                         </table>
 
-                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily:"Raleway"}}>Софтвер за Gemalto
+                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Софтвер за
+                            Gemalto
                             Java PKI
                             токен
                         </div>
 
-                        <table className="table" style={{fontFamily:"Raleway"}}>
+                        <table className="table" style={{fontFamily: "Raleway"}}>
                             <thead className="thead-light">
                             <tr>
-                                <th style={{width:"83%"}} scope="col">Gemalto Classic Client 6.3 (не поддржан софтвер)</th>
+                                <th style={{width: "83%"}} scope="col">Gemalto Classic Client 6.3 (не поддржан
+                                    софтвер)
+                                </th>
                                 <th scope="col">Превземи</th>
                             </tr>
                             </thead>
@@ -296,7 +304,7 @@ function Drivers() {
 
             </div>
         </div>
-);
+    );
 }
 
 export default Drivers;

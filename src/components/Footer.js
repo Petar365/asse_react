@@ -1,4 +1,3 @@
-import {useState} from 'react';
 
 function Footer() {
 
@@ -6,10 +5,10 @@ function Footer() {
         <div className="wrapper" style={{paddingTop: "0px"}}>
             <footer>
                 <div className="container">
-                    <div className="row pt-4 pb-5">
+                    <div className="row pt-4 pb-2">
                         <div className="col-lg-12 pb-3 pl-0">
-                            <img className="site-logo" src="../images/asseco-logo-white-retina-new.png" alt="Asse"
-                                 width="150" height="49"/>
+                            <img className="site-logo" src="/images/asseco-logo-white-retina-new.png" alt="Asse"
+                                 width={"200"} height={"65"}/>
                         </div>
 
                         <div className="col-md-6  col-sm-12 text-lg-left-sm-center ">
@@ -26,11 +25,11 @@ function Footer() {
 
                         </div>
 
-                        <div className="col-md-6 col-sm-12 align-content-end pb-5 text-lg-right-sm-center ">
+                        <div className="col-md-6 col-sm-12 align-content-end pb-1 text-lg-right-sm-center ">
 
                             <div className="d-inline-block pr-3 ">
                                 <a href="https://www.instagram.com/aseemacedonia/" target="_blank"
-                                   className="footer-text-color">
+                                   className="footer-text-color" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                          className="bi bi-instagram smicons mr-3" viewBox="0 0 16 16">
                                         <path
@@ -42,7 +41,7 @@ function Footer() {
 
                             <div className="d-inline-block pr-3">
                                 <a href="https://www.facebook.com/aseemacedonia" target="_blank"
-                                   className="footer-text-color">
+                                   className="footer-text-color" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                          className="bi bi-facebook smicons  mr-3" viewBox="0 0 16 16">
                                         <path
@@ -54,7 +53,7 @@ function Footer() {
 
                             <div className="d-inline-block pr-3">
                                 <a href="https://www.linkedin.com/company/asseco-south-eastern-europe/?originalSubdomain=mk"
-                                   target="_blank" className="footer-text-color">
+                                   target="_blank" className="footer-text-color" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                          className="bi bi-linkedin smicons  mr-3" viewBox="0 0 16 16">
                                         <path

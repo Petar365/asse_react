@@ -112,8 +112,8 @@ function WebApp() {
                         <div style={{textAlign: "left"}}>
                             <img src="/images/Services/NlbLoginPage.png"
                                  style={{maxWidth: "75%", maxHeight: "100%", float: "left"}}
-                                 className="pr-3"/>
-                            <a>Исечок од корисничките интерфејси. Изгледот на страната е прилагодлив и
+                                 className="pr-3" alt={"NLB Login Pages"}/>
+                            <span>Исечок од корисничките интерфејси. Изгледот на страната е прилагодлив и
                                 се адаптира
                                 на заштитините бои и логоа на клиентот (Банката). Најавата е возможна со
                                 дигитални
@@ -121,13 +121,13 @@ function WebApp() {
                                 име
                                 и лозинка,како и автентикација и авторизација со мобилен токен(за
                                 физички
-                                лица)s.</a>
+                                лица)s.</span>
                         </div>
 
                         <div style={{clear: "both"}}></div>
 
                         <div>
-                            <p>За <a className="font-weight-bold">правните</a> лица за најава со токен
+                            <p>За <span className="font-weight-bold">правните</span> лица за најава со токен
                                 со сертификат подребно е да се исталираат :</p>
                             <ul>
                                 <li>Компонента за токен</li>
@@ -137,26 +137,26 @@ function WebApp() {
                             </ul>
                             <p>Компонента за токен може да ја најдете на "Упатство за инсатлација на
                                 компонента за токен" или во <a href="/Drivers">драјвери</a></p>
-                            <img src="/images/Services/nlbproToken.png" style={{width: "100%"}}/>
+                            <img src="/images/Services/nlbproToken.png" style={{width: "100%"}} alt={"nlbproToken.png"}/>
                             <p>Со кликање на копчето "Најава со токен со сертификат" доколку ги немате
                                 инсталирано потребните компоненти ви се отвара прозорец со можност
                                 истите да ги превземете</p>
                             <img src="/images/Services/nlbproklikSertifikat.png"
-                                 style={{maxWidth: "100%"}}/>
+                                 style={{maxWidth: "100%"}} alt={"nlbproklikSertifikat.png"}/>
                         </div>
-                        <div>
-                            <p className="font-weight-bold">Страничен панел</p>
-                            <img src="/images/Services/nlbStranicePanel.png" style={{float: "left"}}
-                                 className="pr-3"/>
+                        <div className={"text-center"}>
+                            <p className="p18b">Страничен панел</p>
+                            <img src="/images/Services/nlbStranicePanel.png"
+                                 className="pb-3 text-center" alt={"nlbStranicePanel.png"}/>
                         </div>
 
                         <div style={{clear: "both"}}></div>
 
                         <div className="pt-3">
-                            <p className="font-weight-bold">Контролен панел</p>
+                            <p className="p18b text-center">Контролен панел</p>
                             <img src="/images/Services/nlbKontrolenPanel.png"
                                  style={{maxWidth: "75%", float: "left"}}
-                                 className="pr-3"/>
+                                 className="pr-3" alt={"nlbKontrolenPanel.png"}/>
                             <p>Контролниот панел е првата страница на апликацијата што се отвора по
                                 успешната
                                 најава.
@@ -180,11 +180,11 @@ function WebApp() {
                                 пак директно да се испечатат.</p>
                             <img className="pb-3" src="/images/Services/nlbSmetki.png"
                                  style={{maxWidth: "100%"}}
-                            />
+                             alt={"nlbSmetki.png"}/>
                         </div>
 
-                        <div>
-                            <p className="mb-0">Истот така може да се пребаруваат налозите со користење
+                        <div className={"pt-3"}>
+                            <p className="mb-0 p18b">Истот така може да се пребаруваат налозите со користење
                                 на разни филтри
                                 односно критериуми:</p>
                             <ul>

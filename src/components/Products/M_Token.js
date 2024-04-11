@@ -34,7 +34,7 @@ function M_Banking() {
                     </p>
                     <div className="text-center p-3" style={{fontSize: "18px"}}>
                         <p className="p18b">Интеграција на м-Токен во банкарската апликација</p>
-                        <img src="/images/app/MToken.PNG" style={{maxWidth: "30%"}}/>
+                        <img src="/images/app/MToken.PNG" style={{maxWidth: "30%"}} alt={"MToken.PNG"}/>
                     </div>
                     <p>Можностите на Asseba m-Token во функција на безбедна автентикација или пак авторизација на
                         одредена
@@ -81,7 +81,7 @@ function M_Banking() {
                     <div className="text-center">
                         <div className="p-3">
                             <p className="p18b">Login со PIN</p>
-                            <img src="/images/app/pin.PNG" style={{maxWidth: "30%"}}/>
+                            <img src="/images/app/pin.PNG" style={{maxWidth: "30%"}} alt={"pin.png"}/>
                             <p>Login – се внесува PIN, број кој што клиентот самиот го избира при иницијалниот чекор на
                                 активација.</p>
                         </div>
@@ -94,14 +94,14 @@ function M_Banking() {
                         <div className="text-center">
                             <div className="p-3">
                                 <p className="p18b">Login на iBanking web платформа со м-Токен</p>
-                                <img src="/images/app/login_mtoken.png" style={{maxWidth: "30%"}} className="pb-3 pt3"/>
+                                <img src="/images/app/login_mtoken.png" style={{maxWidth: "30%"}} className="pb-3 pt3" alt={"login_mtoken.png"}/>
                                 <p> Со внесување на корисничко име и кликање на копчето "Најава" во банкарската
                                     апликацијата пристигнува барање за авторизација
                                 </p>
                                 <img src="/images/app/loginNotification.PNG" style={{maxWidth: "30%"}}
-                                     className="pb-3 pt3"/>
+                                     className="pb-3 pt3" alt={"loginNotification.png"}/>
                                 <img src="/images/app/loginNotificationConfirm.PNG" style={{maxWidth: "30%"}}
-                                     className="pb-3 pt3"/>
+                                     className="pb-3 pt3" alt={"loginNotificationConfirm/png"}/>
                                 <p> Oткога ќе се потврди барањето добиваме порака "Успешно одобрено барање" и корисникот
                                     е логиран во iBanking web платформата
                                 </p>
