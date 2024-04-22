@@ -1,5 +1,5 @@
 html, body, .App, #app>div ,#root{
- height: 100vh;
+ /*height: 100vh;*/
   width: 100%;
 }
 .App-logo {
@@ -36,5 +36,4 @@ html, body, .App, #app>div ,#root{
     transform: rotate(360deg);
   }
 }
-
 
