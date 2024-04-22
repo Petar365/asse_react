@@ -4,12 +4,12 @@ function M_Banking() {
         <div className="headers">
             <hr className="invisibleHr"/>
             <div className="wrapper-content-inner pt-2 pb-2">
-                <h2><span style={{fontFamily: "Raleway"}}>Мобилно банкарство</span></h2>
+                <h2><span style={{fontFamily: "Raleway"}}>Asseba m-Banking</span></h2>
             </div>
             <hr className="invisibleHrBottom"/>
         </div>
         <div className="wrapper-content-inner pt-4">
-            <h2 className="text-center p-3s">Asseba m-Banking</h2>
+            <h2 className="text-center p-3"><span className="bluefont">Asseba</span> m-Banking</h2>
             <div>
                 <p>
                     Операторот за потребите на крајните клиенти на Корисникот ќе овозможи достапност на банкарските

@@ -11,7 +11,7 @@ function Services_Internet() {
             <div className="wrapper-content-inner pt-4">
                 <div>
                     <div>
-                        <h2 className="text-center p-3">E-mail канал</h2>
+                        <h2 className="text-center p-3"><span className="bluefont">E-mail</span> канал</h2>
                         <p>Овој канал им овозможува на банките, на своите коминтенти да им понудат информации поврзани
                             со нивните сметки или информации за кампањите и останатите сервиси на банката преку EMAIL
                             пораки.
@@ -27,7 +27,7 @@ function Services_Internet() {
                     </div>
                     <hr style={{borderTopColor:"rgba(0, 0, 0, 0.3)"}}/>
                     <div>
-                        <h2 className="text-center p-3">Aseba fxWeb 3.0</h2>
+                        <h2 className="text-center p-3"><span className="bluefont">Asebax</span> fxWeb 3.0</h2>
                     </div>
                     <div>
                         <p>Aseba fxWeb 3.0 претставуа новата генерација на web платформата за
@@ -38,7 +38,7 @@ function Services_Internet() {
                             сигурносна
                             компанија и доби највисоки позитивни сигурносни оценки.</p>
 
-                        <p className="font-weight-bold">Технолошки предости:</p>
+                        <p className="p18b">Технолошки предости:</p>
 
                         <ul>
                             <li>Internet Browser independent. iBanking web решението може да се користи
@@ -60,7 +60,7 @@ function Services_Internet() {
                             </li>
                         </ul>
 
-                        <p className="font-weight-bold">Функционални предности:</p>
+                        <p className="p18b">Функционални предности:</p>
 
                         <ul>
                             <li>
@@ -125,7 +125,7 @@ function Services_Internet() {
                             <img src="/images/Services/NlbLoginPage.png"
                                  style={{maxWidth: "75%", maxHeight: "100%", float: "left"}}
                                  className="pr-3" alt={"NlbLoginPage.png"}/>
-                            <a>Исечок од корисничките интерфејси. Изгледот на страната е прилагодлив и
+                            <span>Исечок од корисничките интерфејси. Изгледот на страната е прилагодлив и
                                 се адаптира
                                 на заштитините бои и логоа на клиентот (Банката). Најавата е возможна со
                                 дигитални
@@ -133,13 +133,13 @@ function Services_Internet() {
                                 име
                                 и лозинка,како и автентикација и авторизација со мобилен токен(за
                                 физички
-                                лица)s.</a>
+                                лица)s.</span>
                         </div>
 
                         <div style={{clear: "both"}}></div>
 
                         <div>
-                            <p>За <a className="font-weight-bold">правните</a> лица за најава со токен
+                            <p>За <span className="p18b">правните</span> лица за најава со токен
                                 со сертификат подребно е да се исталираат :</p>
                             <ul>
                                 <li>Компонента за токен</li>
@@ -149,23 +149,23 @@ function Services_Internet() {
                             </ul>
                             <p>Компонента за токен може да ја најдете на "Упатство за инсатлација на
                                 компонента за токен" или во <a href="/Drivers">драјвери</a></p>
-                            <img src="/images/Services/nlbproToken.png" style={{width: "100%"}}/>
+                            <img src="/images/Services/nlbproToken.png" style={{width: "100%"}} alt={"nlbproToken.png"}/>
                             <p>Со кликање на копчето "Најава со токен со сертификат" доколку ги немате
                                 инсталирано потребните компоненти ви се отвара прозорец со можност
                                 истите да ги превземете</p>
                             <img src="/images/Services/nlbproklikSertifikat.png"
                                  style={{maxWidth: "100%"}} alt={"nlbproklikSertifikat.png"}/>
                         </div>
-                        <div>
-                            <p className="font-weight-bold">Страничен панел</p>
-                            <img src="/images/Services/nlbStranicePanel.png" style={{float: "left"}}
+                        <div className={"text-center"}>
+                            <p className="p18b">Страничен панел</p>
+                            <img src="/images/Services/nlbStranicePanel.png"
                                  className="pr-3" alt={"nlbStranicePanel.png"}/>
                         </div>
 
                         <div style={{clear: "both"}}></div>
 
-                        <div className="pt-3">
-                            <p className="font-weight-bold">Контролен панел</p>
+                        <div className="pt-4">
+                            <p className="p18b text-center">Контролен панел</p>
                             <img src="/images/Services/nlbKontrolenPanel.png"
                                  style={{maxWidth: "75%", float: "left"}}
                                  className="pr-3" alt={"nlbKontrolenPanel.png"}/>

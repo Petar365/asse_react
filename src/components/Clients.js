@@ -13,12 +13,12 @@ function Clients() {
                 <hr className="invisibleHrBottom"/>
             </div>
 
-            <div className="clients-background">
+            <div style={{background:"white"}}>
                 <div className="container px-4 pt-5 pb-5 text-center">
                     <div className="row gx-5">
                         <div className="col">
                             <div className="p-3 clients-img">
-                                <a href="https://nlb.mk/" target="_blank" rel="noreferrer">
+                                <a className="colortobw" href="https://nlb.mk/" target="_blank" rel="noreferrer">
                                     <img className="img-content" src="/images/NLB%20BANK%20FULL%20COLOR.png"
                                          alt="NLB Bank"/>
                                 </a>
@@ -26,18 +26,18 @@ function Clients() {
                         </div>
                         <div className="col">
                             <div className="p-3 clients-img">
-                                <a href="https://sparkasse.mk/" target="_blank" rel="noreferrer">
-                                    <img className="img-content" src="/images/sparkase%20fullcolor.png"
+                                <a className="colortobw" href="https://sparkasse.mk/" target="_blank" rel="noreferrer">
+                                    <img className="img-content" src="/images/sparkase_fullcolor-removebg.png"
                                          alt="SPARKASSE"/>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <hr style={{borderTopColor: "rgba(0, 0, 0, 0.3)"}}/>
-                    <div className="row gx-5 pt-5">
+                    <div className="row gx-5 pt-lg-5">
                         <div className="col">
                             <div className="p-3 clients-img">
-                                <a href="https://silkroadbank.com.mk/" target="_blank" rel="noreferrer">
+                                <a className="colortobw" href="https://silkroadbank.com.mk/" target="_blank" rel="noreferrer">
                                     <img className="img-content" src="/images/silkroad.png"
                                          alt="Silk Road Bank"/>
                                 </a>
@@ -55,7 +55,7 @@ function Clients() {
 
                     <hr style={{borderTopColor: "rgba(0, 0, 0, 0.3)"}}/>
 
-                    <div className="row gx-5 pt-5">
+                    <div className="row gx-5 pt-lg-5">
 
                         <div className="col">
                             <div className="p-3 clients-img">

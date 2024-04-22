@@ -13,8 +13,8 @@ function WebApp() {
 
 
             <div className="wrapper-content-inner pt-4">
-                <div>
-                    <h2 className="text-center p-3">Aseba fxWeb 3.0</h2>
+                <div className="text-center p-3">
+                    <h2 className=""><span className="bluefont">Aseba</span> fxWeb 3.0</h2>
                 </div>
                 <div >
                     <div>
@@ -26,7 +26,7 @@ function WebApp() {
                             сигурносна
                             компанија и доби највисоки позитивни сигурносни оценки.</p>
 
-                        <p className="font-weight-bold">Технолошки предости:</p>
+                        <p className="font-weight-bold p18b">Технолошки предости:</p>
 
                         <ul>
                             <li>Internet Browser independent. iBanking web решението може да се користи
@@ -48,7 +48,7 @@ function WebApp() {
                             </li>
                         </ul>
 
-                        <p className="font-weight-bold">Функционални предности:</p>
+                        <p className="font-weight-bold p18b">Функционални предности:</p>
 
                         <ul>
                             <li>
@@ -152,7 +152,7 @@ function WebApp() {
 
                         <div style={{clear: "both"}}></div>
 
-                        <div className="pt-3">
+                        <div className="pt-4">
                             <p className="p18b text-center">Контролен панел</p>
                             <img src="/images/Services/nlbKontrolenPanel.png"
                                  style={{maxWidth: "75%", float: "left"}}

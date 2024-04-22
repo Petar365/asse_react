@@ -13,7 +13,7 @@ function ControlledCarousel() {
         <div className={"wrapper"}>
             <Carousel fade activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img className="d-block w-100  c-img" src="/images/office.jpg" alt="Third slide"/>
+                    <img className="d-block w-100  c-img" src="/images/office.jpg" alt="Third slide" />
                     <Carousel.Caption>
                         <h3 className={"font-weight-bold"}>Интеграција на мобилниот токен</h3>
                         <p>Отсега функционалноста на мобилниот токен апликацијата е интегрирана во самата мобилна
@@ -21,7 +21,7 @@ function ControlledCarousel() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100  c-img" src="/images/family-living-room.webp" alt="Third slide"/>
+                    <img className="d-block w-100  c-img" src="/images/family-living-room.png"  alt="Third slide"/>
 
                     <Carousel.Caption>
                         <h3 className={"font-weight-bold"}>Компанијата АССЕКО СЕЕ го промени името во АСЕЕ</h3>

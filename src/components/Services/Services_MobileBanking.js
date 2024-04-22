@@ -1,5 +1,3 @@
-import Accordion from 'react-bootstrap/Accordion';
-import {clear} from "@testing-library/user-event/dist/clear";
 
 function Services_MobileBanking() {
     return (
@@ -12,8 +10,8 @@ function Services_MobileBanking() {
                 <hr className="invisibleHrBottom"/>
             </div>
             <div className="wrapper-content-inner pt-4">
-                <h2 className="text-center p-3">m-Banking канал</h2>
-                <div>
+                <h2 className="text-center p-3"><span className="bluefont">m-Banking</span> канал</h2>
+                <div className="pt-3 pb-5">
                     <p>
                         ASEBSA m-banking решението овозможува брз и сигурен пристап на финансиските информации и сервиси
                         преку мобилните уреди ( повеќе од 10000 мобилни телефони што ја подржуваат оваа услуга,Android,
@@ -23,6 +21,10 @@ function Services_MobileBanking() {
                         независно од производителот на мобилниот телефон и мобилниот оператор , со интегриран мобилен
                         токен за автентикација со што се достигнува висока сигурност и брзо процесирање на трансакции.
                     </p>
+                    <div className="text-center">
+                        <img src="/images/Mobile-Banking.png" style={{maxWidth: "50%", height:"auto"}}
+                             alt={"Mobile-Banking.PNG"}/>
+                    </div>
                 </div>
             </div>
         </div>
