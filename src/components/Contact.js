@@ -1,5 +1,5 @@
 import '../css/style.css'
-
+import React from "react";
 
 function DiagonalDiv() {
 
@@ -15,10 +15,10 @@ function DiagonalDiv() {
 
             <div className="container px-4 text-left wrapper-content-inner" style={{textAlign: "left"}}>
                 <div className="row gx-5 pt-5 pb-5">
-                    <div className="col-lg-6 border-type">
+                    <div className="col-lg-6 ">
                         <div className="p-3 contact">
                             <div className="contact-header">
-                                <span className="bluefont">Call</span> <span>Us</span>
+                                <span className="bluefont">Јавете</span> <span>Ни</span>
                             </div>
                             <p >Доколку не најдете одговор на вашето прашање на оваа
                                 страница,
@@ -76,14 +76,14 @@ function DiagonalDiv() {
                         </div>
                     </div>
                     <div className="col-lg-6 ">
-                        <div className="p-3 map-content">
+                        <div className="p-3 map-content border-type">
                             <div className="contact-header ">
-                                <span className="bluefont" >Find </span> <span>Us</span>
+                                <span className="bluefont" >Најди</span> <span>Не</span>
                             </div>
                             {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
-                            <iframe
+                            <iframe className="map-size"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.3078967565143!2d21.414984776565866!3d41.99366725816991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541437c484c347%3A0x52f84ea5657ab52d!2sAsseco%20SEE!5e0!3m2!1sen!2smk!4v1711968673189!5m2!1sen!2smk"
-                                width="450" height="300" style={{border: 0}} allowFullScreen="" loading="lazy"
+                                style={{border: 0}} allowFullScreen="" loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                                 ></iframe>
                         </div>

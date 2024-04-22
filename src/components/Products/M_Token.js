@@ -4,14 +4,14 @@ function M_Banking() {
             <div className="headers">
                 <hr className="invisibleHr"/>
                 <div className="wrapper-content-inner pt-2 pb-2">
-                    <h2><span style={{fontFamily: "Raleway"}}>Мобилно банкарство</span></h2>
+                    <h2><span style={{fontFamily: "Raleway"}}>Asseba m-Token</span></h2>
                 </div>
                 <hr className="invisibleHrBottom"/>
             </div>
             <div className="wrapper-content-inner pt-4">
-                <h2 className="text-center p-3">Asseba m-Token</h2>
+                <h2 className="text-center p-3"><span className="bluefont">Asseba</span> m-Token</h2>
                 <div>
-                    <p className="font-weight-bold">Отсега м-Токен е интегриран во самата банкарска апликација и не е
+                    <p className="p18b">Отсега м-Токен е интегриран во самата банкарска апликација и не е
                         потребно инсаталација на посебна апкликација</p>
 
                     <p>Целта на измената е да се постигнат две фунционали унапредувања: Да се интегрираат фунциите на
@@ -88,7 +88,7 @@ function M_Banking() {
                     </div>
 
                     <div>
-                        <p className="p18b">Во продолжение се неколку екрани од новиот начин на логирање на iBanking web
+                        <p className="p18b text-center">Во продолжение се неколку екрани од новиот начин на логирање на iBanking web
                             платформа со м-Токен</p>
 
                         <div className="text-center">

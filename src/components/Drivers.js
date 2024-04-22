@@ -18,7 +18,7 @@ function Drivers() {
 
                 <div className="wrapper-content-inner">
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Дигитален
+                    <div className="pt-3 pb-3 pl-2 p18b bluefont" style={{fontFamily: "Raleway"}}>Дигитален
                         сертификат
                         запишан на
                         Gemalto IDPrime PKI токен
@@ -33,7 +33,7 @@ function Drivers() {
                             </tr>
                             </thead>
 
-                            <tbody className="bluefont">
+                            <tbody>
                             <tr>
                                 <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td><a href="/Downloads/SafeNetAuthentication/KorisnickoUpatstvo_Instalacija_na_SAC.pdf"
@@ -59,7 +59,7 @@ function Drivers() {
                         </table>
                     </div>
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Дигитален
+                    <div className="pt-3 pb-3 pl-2 p18b bluefont" style={{fontFamily: "Raleway"}}>Дигитален
                         сертификат
                         запишан на
                         Gemalto Java токен
@@ -74,7 +74,7 @@ function Drivers() {
                             </tr>
                             </thead>
 
-                            <tbody className="bluefont">
+                            <tbody>
                             <tr>
                                 <th style={{width: "68%"}} scope="row">32-bit</th>
                                 <td><a href="/Downloads/Classic%20Client/JavaToken_Instalation_Guide_1.1.pdf"
@@ -101,7 +101,8 @@ function Drivers() {
                     </div>
 
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Драјвери за SafeNet
+                    <div className="pt-3 pb-3 pl-2 p18b bluefont" style={{fontFamily: "Raleway"}}>Драјвери
+                        за SafeNet
                         5110
                         CC PKI
                         Токен
@@ -170,7 +171,8 @@ function Drivers() {
 
                     </div>
 
-                    <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Минидрајвери за
+                    <div className="pt-3 pb-3 pl-2 p18b bluefont"
+                         style={{fontFamily: "Raleway"}}>Минидрајвери за
                         Gemalto ID
                         Prime
                         (.NET/MD) PKI Токен
@@ -232,78 +234,85 @@ function Drivers() {
                             </tbody>
                         </table>
 
-                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Библиотека за
+                    </div>
+
+                    <div className="table-fixed">
+                        <div className="pt-3 pb-3 pl-2 p18b bluefont"
+                             style={{fontFamily: "Raleway"}}>Библиотека за
                             Gemalto
                             ID Prime
                             (.NET/MD) PKI Токен
                         </div>
-
-                        <table className="table" style={{fontFamily: "Raleway"}}>
-                            <thead className="thead-light">
-                            <tr>
-                                <th style={{width: "83%"}} scope="col">#PKCS Gemalto ID Prime (не поддржан софтвер)</th>
-                                <th scope="col">Превземи</th>
-                            </tr>
-                            </thead>
-
-                            <tbody className="bluefont">
-                            <tr>
-                                <th scope="row">32-bit</th>
-                                <td>
-                                    <a className="msi-download-center msi-button btn btn-outline-success"
-                                       href="/Downloads/KibsTrust/Gemalto%20ID%20Prime%20Library(.NET,MD)%20PKI%20Tокен/IDGo800_PKCS11_Library_x86.msi">MSI</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">64-bit</th>
-                                <td>
-                                    <a className="msi-download-center msi-button btn btn-outline-success"
-                                       href="/Downloads/KibsTrust/Gemalto%20ID%20Prime%20Library(.NET,MD)%20PKI%20Tокен/IDGo800_PKCS11_Library_x64.msi">MSI</a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-
-                        <div className="pt-3 pb-3 pl-2 font-weight-bold" style={{fontFamily: "Raleway"}}>Софтвер за
-                            Gemalto
-                            Java PKI
-                            токен
-                        </div>
-
-                        <table className="table" style={{fontFamily: "Raleway"}}>
-                            <thead className="thead-light">
-                            <tr>
-                                <th style={{width: "83%"}} scope="col">Gemalto Classic Client 6.3 (не поддржан
-                                    софтвер)
-                                </th>
-                                <th scope="col">Превземи</th>
-                            </tr>
-                            </thead>
-
-                            <tbody className="bluefont">
-                            <tr>
-                                <th scope="row">32-bit</th>
-                                <td>
-                                    <a className="msi-download-center msi-button btn btn-outline-success"
-                                       href="/Downloads/KibsTrust/Gemalto%20Clasic%20Client%20Java%20PKI%20Токен/Classic_Client_32_User_setup.msi">MSI</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">64-bit</th>
-                                <td>
-                                    <a className="msi-download-center msi-button btn btn-outline-success"
-                                       href="/Downloads/KibsTrust/Gemalto%20Clasic%20Client%20Java%20PKI%20Токен/Classic_Client_64_User_setup.msi">MSI</a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
                     </div>
 
 
+                    
+                    <table className="table" style={{fontFamily: "Raleway"}}>
+                        <thead className="thead-light">
+                        <tr>
+                            <th style={{width: "83%"}} scope="col">#PKCS Gemalto ID Prime (не поддржан софтвер)</th>
+                            <th scope="col">Превземи</th>
+                        </tr>
+                        </thead>
+
+                        <tbody className="bluefont">
+                        <tr>
+                            <th scope="row">32-bit</th>
+                            <td>
+                                <a className="msi-download-center msi-button btn btn-outline-success"
+                                   href="/Downloads/KibsTrust/Gemalto%20ID%20Prime%20Library(.NET,MD)%20PKI%20Tокен/IDGo800_PKCS11_Library_x86.msi">MSI</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">64-bit</th>
+                            <td>
+                                <a className="msi-download-center msi-button btn btn-outline-success"
+                                   href="/Downloads/KibsTrust/Gemalto%20ID%20Prime%20Library(.NET,MD)%20PKI%20Tокен/IDGo800_PKCS11_Library_x64.msi">MSI</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div className="pt-3 pb-3 pl-2 p18b bluefont" style={{fontFamily: "Raleway"}}>Софтвер за
+                        Gemalto
+                        Java PKI
+                        токен
+                    </div>
+
+                    <table className="table" style={{fontFamily: "Raleway"}}>
+                        <thead className="thead-light">
+                        <tr>
+                            <th style={{width: "83%"}} scope="col">Gemalto Classic Client 6.3 (не поддржан
+                                софтвер)
+                            </th>
+                            <th scope="col">Превземи</th>
+                        </tr>
+                        </thead>
+
+                        <tbody className="bluefont">
+                        <tr>
+                            <th scope="row">32-bit</th>
+                            <td>
+                                <a className="msi-download-center msi-button btn btn-outline-success"
+                                   href="/Downloads/KibsTrust/Gemalto%20Clasic%20Client%20Java%20PKI%20Токен/Classic_Client_32_User_setup.msi">MSI</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">64-bit</th>
+                            <td>
+                                <a className="msi-download-center msi-button btn btn-outline-success"
+                                   href="/Downloads/KibsTrust/Gemalto%20Clasic%20Client%20Java%20PKI%20Токен/Classic_Client_64_User_setup.msi">MSI</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
 
+
             </div>
+
         </div>
+
     );
 }
 

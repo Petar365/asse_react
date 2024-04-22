@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Navbar from "./components/Navbar2";
 import Carousel from "./components/ControlledCarousel";
@@ -14,13 +15,14 @@ import Footer from "./components/Footer";
 import Drivers from "./components/Drivers";
 import Instructions from "./components/Instructions";
 import FAQ from "./components/FAQ";
-import Services from "./components/Services/Services";
 import Services_Interner from "./components/Services/Services_Interner";
 import Services_MobileBanking from "./components/Services/Services_MobileBanking";
 import Services_Sms from "./components/Services/Services_Sms";
 import M_Banking from "./components/Products/M_Banking";
 import WebApp from "./components/Products/WebApp";
 import M_Token from "./components/Products/M_Token";
+import E_Banking from "./components/Products/E-Banking";
+import {Fragment} from 'react';
 
 const router = createBrowserRouter([
     {
@@ -32,7 +34,7 @@ const router = createBrowserRouter([
             <Clients/>
             <Contact/>
             <Footer/>
-            </>,
+        </>,
     },
     {
         path: "/products_webapp",
@@ -40,7 +42,7 @@ const router = createBrowserRouter([
             <Navbar/>
             <WebApp/>
             <Footer/>
-            </>,
+        </>,
     },
     {
         path: "/products_m-token",
@@ -127,23 +129,13 @@ const router = createBrowserRouter([
 
     },
     {
-        path: "/services",
-        element: <>
-            <Navbar/>
-            <Services/>
-            <Footer/>
-        </>,
-
-    },
-    {
-        path: "/m-banking",
+        path: "/products_e-banking",
         element: <>
             <Navbar/>
             {/* eslint-disable-next-line react/jsx-pascal-case */}
-            <M_Banking/>
+            <E_Banking/>
             <Footer/>
         </>,
-
     },
 ]);
 

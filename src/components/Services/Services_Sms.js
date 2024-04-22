@@ -1,6 +1,3 @@
-import Accordion from 'react-bootstrap/Accordion';
-import {clear} from "@testing-library/user-event/dist/clear";
-
 function Services_Sms() {
     return (
         <div className="wrapper">
@@ -12,8 +9,8 @@ function Services_Sms() {
                 <hr className="invisibleHrBottom"/>
             </div>
             <div className="wrapper-content-inner pt-4">
-                <h2 className="text-center p-3">SMS канал</h2>
-                <div>
+                <h2 className="text-center p-3"><span className="bluefont">SMS</span> канал</h2>
+                <div className="pt-3 pb-5">
                     <p>
                         Овој канал им овозможува на банките, на своите коминтенти да им понудат информации поврзани со
                         нивните сметки или информации за кампањите и останатите сервиси на банката преку испраќање на
@@ -26,6 +23,10 @@ function Services_Sms() {
                         праќање на порака со содржина СОСТ, банката преку Сервисниот Центар ќе му прати СМС порака со
                         одговор за состојбата на сметка или сметки во банката.
                     </p>
+                    <div className="text-center">
+                        <img src="/images/sms_banking.png" style={{maxWidth: "50%", height:"auto"}}
+                             alt={"Mobile-Banking.PNG"}/>
+                    </div>
                 </div>
             </div>
         </div>
